@@ -6,83 +6,106 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Index</title>
     <style>
+        nav {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+            list-style-type: none;
+            position: fixed;
+            top: 0;
+            width: 100%;
+            display: flex;
+            list-style-type: none;
+            justify-content: center;
+            background-color: #111111;
+        }
+
+        nav a {
+            float: left;
+            display: block;
+            color: white;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+            float: left;
+            border-right: 1px solid #bbbbbb;
+        }
+
+        .active {
+            background-color: #04AA6D;
+
+        }
+
         h1 {
             color: #fffddd;
             text-shadow: 5px 5px 5px aqua;
         }
 
-        h2 {
-
-            color: #e7e7e7;
-            text-align: center;
-            text-shadow: 4px 5px 3px blueviolet;
-            font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif ;
-            
+        #img {
+            position: absolute;
+            height: 80px;
+            width: 80px;
+            left: 700px;
             
         }
 
+        h2 {
+            color: #e7e7e7;
+            text-align: center;
+            text-shadow: 4px 5px 3px blueviolet;
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        }
 
-        /* body {
-            background-image: url("images/8326.jpg");
-            background-color: white;
-            background-repeat: no-repeat repeat;
-            background-size: cover;
-            background-position: center;
-            
-            
+        body {
+            background-color: rgb(54, 11, 11);
+        }
 
-        } */
-body{
-    background-color:rgb(54, 11, 11);
-}
         p {
             font-size: 18px;
         }
 
         p::first-letter {
-
-            /* color: #cba4a4; */
             color: skyblue;
             font-size: 40px;
-
         }
-
 
         .f_family {
             font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
             font-weight: 400;
-
-            /* color: #cba4a4; */
             color: white;
         }
-        #img{
-            position: relative;
-            height: 80px;
-            width: 80px;
-            left: 650px;
-            
+
+        .position {
+            position: static;
+
+            left: 100px;
         }
-        
-        
     </style>
 </head>
 
 <body>
 
     <nav>
-        <a href="index.html">Home</a>|
-        <a href="about.html">About</a>|
+        <a href="index.html" class="active">Home</a>
+        <a href="about.html">About</a>
         <a href="services.html">Services</a>|
         <a href="product.html">Product</a>|
         <a href="contact.html">Contact</a>|
         <a href="https://www.facebook.com/" target="_blank">Facebook</a>|
         <a href="https://www.youtube.com/" target="_blank">Youtube</a>|
-    </nav>
+    </nav><br><br>
+
     <marquee direction="right" height="50px">
         <h1> - - - - - Mehndi Design Artist - - - - -</h1>
     </marquee>
-  <div id="img"> <img src="images/logo1.png" height="100px" width="100px"></div> 
+
+    <!-- Header Starts -->
+    <div id="img"> <img src="images/logo1.png" height="100px" width="100px"></div><br><br><br><br><br><br>
     <h2>!....WELCOME TO MEHNDI DESIGN...!</h2>
+    <!-- Header End -->
+
+    <!-- These paragraphs will be start -->
     <p class="f_family"> <b><strong>MEHNDI</strong> is a form of temporary skin decoration using a paste created with
             henna.
             In the West,
@@ -92,15 +115,16 @@ body{
             henna as body art found in <u>North Africa, East Africa and the Middle East. </u>There are many
             different names for mehndi across the languages of <u>South Asia</u>.</b>
     </p><br><br><br>
-    
+    <!-- These paragraphs will be end -->
 
-     <img src="images/bridal-mehndi-jsk-photography.png" alt="Mehindi Design">
+    <!-- Images Will Be Start -->
+    <img class="position" src="images/bridal-mehndi-jsk-photography.png" alt="Mehindi Design">
     <img src="images/download (16).jfif" alt="Mehndi Design">
     <img src="images/download (17).jfif" alt="Mehindi Design">
     <img src="images/download (18).jfif" alt="Mehindi Design">
     <img src="images/download (15).jfif" alt="Mehindi Design">
     <img src="images/download (19).jfif" alt="Mehindi Design">
-
+    <!-- Images Will Be End -->
 
 
 
