@@ -5,8 +5,40 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Product</title>
      <style>
+        
+ nav {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+            list-style-type: none;
+            position: fixed;
+            top: 0;
+            width: 100%;
+            display: flex;
+            list-style-type: none;
+            justify-content: center;
+            background-color: #111111;
+        }
+
+        nav a {
+            float: left;
+            display: block;
+            color: white;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+            float: left;
+            border-right: 1px solid #bbbbbb;
+        }
+        .active {
+            background-color: #04AA6D;
+
+        }
+
         h1{
-            color: brown;
+             color: #fffddd;
+            text-shadow: 5px 5px 5px aqua;
         }
         .img{
             border: 3px solid brown;
@@ -16,21 +48,35 @@
             left: 500px;
             top: 40px;
         }
+        .linear{
+        height: 2000px;
+        background:linear-gradient(rgb(53, 2, 2), rgb(95, 2, 2),rgb(143, 15, 15));
+    }
+     #img {
+            position: absolute;
+            height: 80px;
+            width: 80px;
+            left: 700px;
+
+        }
     </style>
 </head>
 <body>
+     <div class="linear">
     <nav>
         <a href="index.html">Home</a>|
         <a href="about.html">About</a>|
         <a href="services.html">Services</a>|
-        <a href="product.html">Product</a>|
+        <a href="product.html" class="active">Product</a>|
         <a href="contact.html">Contact</a>|
         <a href="https://www.facebook.com/" target="_blank">Facebook</a>|
         <a href="https://www.youtube.com/" target="_blank">Youtube</a>|
-    </nav>
-     <marquee  direction="right" height="100px">
-         <h1>  Mehndi Design Artist</h1>
+    </nav><br><br>
+     <marquee direction="right" height="50px">
+        <h1> - - - - - Mehndi Design Artist - - - - -</h1>
     </marquee>
+    <div id="img"> <img src="images/logo1.png" height="100px" width="100px"></div><br><br><br><br><br><br>
+
 
     
     <img src="images/download (8).jfif"alt="Mehndi Design" class="img">
@@ -43,5 +89,6 @@
     <hr>
     <img src="images/images (2).jfif"alt="Mehndi Design" class="img">
     <hr>
+    </div>
 </body>
 </html>

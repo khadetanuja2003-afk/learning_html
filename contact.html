@@ -6,25 +6,71 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contact</title>
      <style>
+        
+ nav {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+            list-style-type: none;
+            position: fixed;
+            top: 0;
+            width: 100%;
+            display: flex;
+            list-style-type: none;
+            justify-content: center;
+            background-color: #111111;
+        }
+
+        nav a {
+            float: left;
+            display: block;
+            color: white;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+            float: left;
+            border-right: 1px solid #bbbbbb;
+        }
+        .active {
+            background-color: #04AA6D;
+
+        }
+
         h1{
-            color: brown;
+             color: #fffddd;
+            text-shadow: 5px 5px 5px aqua;
+        }
+        .linear{
+        height: 2000px;
+        background:linear-gradient(rgb(53, 2, 2), rgb(95, 2, 2),rgb(143, 15, 15));
+    }
+     #img {
+            position: absolute;
+            height: 80px;
+            width: 80px;
+            left: 700px;
+
         }
     </style>
 </head>
 
 <body>
+    <div class="linear">
     <nav>
         <a href="index.html">Home</a>|
         <a href="about.html">About</a>|
         <a href="services.html">Services</a>|
         <a href="product.html">Product</a>|
-        <a href="contact.html">Contact</a>|
+        <a href="contact.html" class="active">Contact</a>|
         <a href="https://www.facebook.com/" target="_blank">Facebook</a>|
         <a href="https://www.youtube.com/" target="_blank">Youtube</a>|
-    </nav>
-     <marquee  direction="right" height="100px">
-         <h1>  Mehndi Design Artist</h1>
+    </nav><br><br>
+     <marquee direction="right" height="50px">
+        <h1> - - - - - Mehndi Design Artist - - - - -</h1>
     </marquee>
+    <div id="img"> <img src="images/logo1.png" height="100px" width="100px"></div><br><br><br><br><br><br>
+
     
     <p><h3>Please provide your Name, Email, Phone Number, and the best time to contact you. It will also be very helpful if you can provide information on the Date, Time, City and type of Event you are planning.</h3></p>
     
@@ -76,6 +122,7 @@
     <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d984956.6950169804!2d73.34688174663374!3d15.35008451335873!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bbfba106336b741%3A0xeaf887ff62f34092!2sGoa!5e0!3m2!1sen!2sin!4v1761904067843!5m2!1sen!2sin"
         width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
         referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
 
 </body>
 

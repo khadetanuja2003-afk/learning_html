@@ -5,42 +5,96 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Services</title>
     <style>
-        h1{
-            color: brown;
+        
+ nav {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+            list-style-type: none;
+            position: fixed;
+            top: 0;
+            width: 100%;
+            display: flex;
+            list-style-type: none;
+            justify-content: center;
+            background-color: #111111;
+        }
+
+        nav a {
+            float: left;
+            display: block;
+            color: white;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+            float: left;
+            border-right: 1px solid #bbbbbb;
+        }
+        .active {
+            background-color: #04AA6D;
+
+        }
+         h1{
+             color: #fffddd;
+            text-shadow: 5px 5px 5px aqua;
+        }
+
+         h2 {
+            font-size: 30px;
+            color: #e7e7e7;
+            text-align: center;
+            text-shadow: 4px 5px 3px blueviolet;
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
         }
         .b_prop{
-            border:10px double brown;
+            border:10px solid white;
         }
+        .linear{
+        height: 1500px;
+        background:linear-gradient(rgb(53, 2, 2), rgb(95, 2, 2),rgb(143, 15, 15));
+    }
+    img{
+        height: 300px;
+        width: 345px;
+       
+        
+    }
+     
     </style>
 </head>
 <body>
+    <div class="linear">
     <nav>
         <a href="index.html">Home</a>|
         <a href="about.html">About</a>|
-        <a href="services.html">Services</a>|
+        <a href="services.html" class="active">Services</a>|
         <a href="product.html">Product</a>|
         <a href="contact.html">Contact</a>|
         <a href="https://www.facebook.com/" target="_blank">Facebook</a>|
         <a href="https://www.youtube.com/" target="_blank">Youtube</a>|
-    </nav>
-     <marquee direction="right" height="100px">
-         <h1>  Mehndi Design Artist</h1>
+    </nav><br><br>
+     <marquee direction="right" height="50px">
+        <h1> - - - - - Mehndi Design Artist - - - - -</h1>
     </marquee>
-    <h1> Mehndi Design Site</h1>
-    <p><b>Mehndi is the traditional art of applying body art using henna paste, which creates a temporary, stain-like design on the skin, typically on hands and feet. It is a significant ceremonial art form in many cultures, especially in South Asia and the Middle East, and is often associated with weddings, festivals, and other celebrations. Designs range widely, from intricate, full-hand patterns like Indian mehndi to more sparse, flowing styles like Arabic mehndi</b></p> 
-    <img src="images/download (4).jfif"alt="Mehndi Design" class="b_prop">
-    <hr>
-
-   <img src="images/download (12).jfif" alt="Mehndi Design"  class="b_prop"><hr>
-   
-   
-   <img src="images/download (14).jfif" alt="Mehndi Design"  class="b_prop"><hr> 
-   <img src="images/download.jfif" alt="Mehndi Design"  class="b_prop"><hr> 
-
-
-   <video controls poster="images/download (14).jfif">
+    
+    <h2> !.....Mehndi Design Site.....!</h2><br><br>
+    
+    <img src="images/gallary1.jpg" alt="Mehndi Design" class="b_prop">
+    <img src="images/g2.jpg"  alt="Mehndi Design"  class="b_prop">
+    <img src="images/g3.jpg"  alt="Mehndi Design"  class="b_prop">
+    <img src="images/g4.jpg"  alt="Mehndi Design"  class="b_prop"><br><br>
+    <img src="images/g5.jpg"  alt="Mehndi Design"  class="b_prop">
+    <img src="images/g11.jpg"  alt="Mehndi Design"  class="b_prop">
+    <img src="images/g7.jpg"  alt="Mehndi Design"  class="b_prop">
+    <img src="images/g8.jpg"  alt="Mehndi Design"  class="b_prop"><br><br>
+    <img src="images/g9.jpg"  alt="Mehndi Design"  class="b_prop">
+    <img src="images/g10.jpg"  alt="Mehndi Design"  class="b_prop">
+     <img src="images/g12.jpg"  alt="Mehndi Design"  class="b_prop">
+    <video controls poster="images/download (14).jfif" height="300px" width="300px">
         <source src="docs/mehandi_video.mp4" type="video/mp4" />
         
     </video>
+    </div>
 </body>
 </html>

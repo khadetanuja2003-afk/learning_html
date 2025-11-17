@@ -47,7 +47,7 @@
             height: 80px;
             width: 80px;
             left: 700px;
-            
+
         }
 
         h2 {
@@ -80,6 +80,35 @@
             position: static;
 
             left: 100px;
+
+
+        }
+        .images_slider{
+            height: 650px;
+            width: 1300px;
+            background-color: rgb(10, 0, 0);
+            background-image: url(images/b5.jpg);
+            background-size: 100% 100%;
+            top: 60%;
+            left: 5%;
+            position: absolute;
+            border: 2px solid white;
+            border-radius: 20px;
+            box-shadow: 2px 5px 15px 5px rgb(221, 166, 98);
+            animation: slider 20s infinite linear ;
+
+
+        }
+        @keyframes slider{
+            0%{ background-image: url(images/b5.jpg);}
+            14%{ background-image: url(images/b1.jpg);}
+            22%{ background-image: url(images/b2.jpg);}
+            30%{ background-image: url(images/b3.jpg);}
+            38%{ background-image: url(images/b4.jpg);}
+            46%{ background-image: url(images/b1.jpg);}
+            54%{ background-image: url(images/b7.jpg);}
+           
+            
         }
     </style>
 </head>
@@ -117,14 +146,14 @@
     </p><br><br><br>
     <!-- These paragraphs will be end -->
 
-    <!-- Images Will Be Start -->
-    <img class="position" src="images/bridal-mehndi-jsk-photography.png" alt="Mehindi Design">
-    <img src="images/download (16).jfif" alt="Mehndi Design">
-    <img src="images/download (17).jfif" alt="Mehindi Design">
-    <img src="images/download (18).jfif" alt="Mehindi Design">
-    <img src="images/download (15).jfif" alt="Mehindi Design">
-    <img src="images/download (19).jfif" alt="Mehindi Design">
-    <!-- Images Will Be End -->
+    <div class="images_slider"></div>
+
+
+
+
+
+
+   
 
 
 
