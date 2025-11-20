@@ -48,6 +48,7 @@
             height: 2000px;
             background: linear-gradient(rgb(53, 2, 2), rgb(95, 2, 2), rgb(143, 15, 15));
 
+
         }
 
         #img {
@@ -67,7 +68,7 @@
             top: 50px
         }
 
-      
+
 
         .paragraphs {
             font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -76,6 +77,34 @@
             font-size: 15px;
             text-align: center;
 
+        }
+
+        .box {
+            margin: 20px;
+            background-color: blueviolet;
+            height: 150px;
+            width: 150px;
+            color: aliceblue;
+            font-size: 30px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin: 10px;
+            border-radius: 10px;
+            transition: transform 3s ease-in-out 500ms;
+        }
+
+        .container {
+            display: flex;
+            flex-direction: row;
+            flex-wrap: nowrap;
+            justify-content: space-around;
+            margin-left: 40px;
+            padding-top: 50px;
+        }
+
+        .box1:hover {
+            transform: scale(1.5);
         }
     </style>
 </head>
@@ -100,9 +129,11 @@
         <section>
             <div class="container">
                 <div class="row">
-                       
-                    <div class="col-md-6"><img src="images/g12.jpg" alt="Mehndi Design" class="img-fluid-mb-2" height="300px" width="500px"  >
-                        
+
+                    <div class="col-md-6">
+                        <div class="container">
+                            <img src="images/g12.jpg" alt="Mehndi Design" class="box1" height="300px" width="500px">
+                        </div>
                         <p class="paragraphs">Features bold outlines and negative space, combining floral and geometric
                             elements for
                             a striking but simple look.Arabic mehndi is a style of henna art characterized by flowing,
@@ -113,9 +144,10 @@
                             minimalist, and
                             elegant look</p>
                     </div>
-                          
-                    <div class="col-md-6"><img src="images/g2.jpg" alt="Mehndi Design" class="img-fluid-mb-2" height="300px" width="500px"  >
-                        
+
+                    <div class="col-md-6"><img src="images/g2.jpg" alt="Mehndi Design" class="img-fluid-mb-2"
+                            height="300px" width="500px">
+
                         <p class="paragraphs"> Minimalistic and chic, this design uses abstract circular patterns to
                             create a
                             captivating look. Spiral and swirl mehndi designs are intricate, flowing patterns
@@ -129,8 +161,9 @@
                             full-hand bridal patterns </p>
                     </div>
 
-                    <div class="col-md-6"><img src="images/m3.jpg" alt="Mehndi Design" class="img-fluid-mb-2" height="300px" width="500px">
-                        
+                    <div class="col-md-6"><img src="images/m3.jpg" alt="Mehndi Design" class="img-fluid-mb-2"
+                            height="300px" width="500px">
+
                         <p class="paragraphs">We don’t want to be biased but it cannot be denied that the charm of this
                             beautiful
                             style
@@ -154,9 +187,10 @@
                             designs.</p>
                     </div>
 
-                    <div class="col-md-6"><img src="images/m4.jpg" alt="Mehndi Design" class="img-fluid-mb-2" height="300px" width="500px">
-                           
-                        
+                    <div class="col-md-6"><img src="images/m4.jpg" alt="Mehndi Design" class="img-fluid-mb-2"
+                            height="300px" width="500px">
+
+
                         <p class="paragraphs">Fusion is a great way of bringing the best of two worlds together and the
                             Indo
                             Arabic
@@ -171,19 +205,28 @@
 
                             We don’t know who started this trend, we are just glad that somebody did!</p>
                     </div>
-                    <div class="col-md-6"><img src="images/m5.jpg" alt="Mehndi Design" class="img-fluid-mb-2" height="300px" width="500px">>
-                        <p class="paragraphs">Moroccan mehndi design is very famous in middle east gulf countries. This type of design is similar to Arabic mehndi designs however, they are simpler than that.
+                    <div class="col-md-6"><img src="images/m5.jpg" alt="Mehndi Design" class="img-fluid-mb-2"
+                            height="300px" width="500px">>
+                        <p class="paragraphs">Moroccan mehndi design is very famous in middle east gulf countries. This
+                            type of design is similar to Arabic mehndi designs however, they are simpler than that.
 
-                          Moroccan Mehndi Designs are a more contemporary take on the traditional mehndi art which looks very unique and trendy.
+                            Moroccan Mehndi Designs are a more contemporary take on the traditional mehndi art which
+                            looks very unique and trendy.
 
-                            These designs are also believed to ward off any evil. There is a particular diamond-shaped Mehndi design that is supposed to deter the bride and groom from any evil eye.
+                            These designs are also believed to ward off any evil. There is a particular diamond-shaped
+                            Mehndi design that is supposed to deter the bride and groom from any evil eye.
 
-                             Moroccan mehndi designs are so simple that even amateurs can easily do them.</p>
+                            Moroccan mehndi designs are so simple that even amateurs can easily do them.</p>
                     </div>
-                     <div class="col-md-6"><img src="images/g3.jpg" alt="Mehndi Design" class="img-fluid-mb-2" height="300px" width="500px">>
-                        <p class="paragraphs">As the name suggests, this type of mehndi is made to look like jewellery on your hands. It is simple and minimalistic But it also looks elegant.
+                    <div class="col-md-6"><img src="images/g3.jpg" alt="Mehndi Design" class="img-fluid-mb-2"
+                            height="300px" width="500px">>
+                        <p class="paragraphs">As the name suggests, this type of mehndi is made to look like jewellery
+                            on your hands. It is simple and minimalistic But it also looks elegant.
 
-                        This type of mehndi is trending nowadays among new brides-to-be. If you don’t like too much artwork then this is the design to go for.One other reason why this type of mehndi is trending is that these designs look so good on your hands that you don’t need any real jewellery to go with them.</p>
+                            This type of mehndi is trending nowadays among new brides-to-be. If you don’t like too much
+                            artwork then this is the design to go for.One other reason why this type of mehndi is
+                            trending is that these designs look so good on your hands that you don’t need any real
+                            jewellery to go with them.</p>
                     </div>
                 </div>
             </div>
